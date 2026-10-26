@@ -1,19 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Basic CSS Selectors</title>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;title&gt;DIV and SPAN Example&lt;/title&gt;
+&lt;style&gt;
+.container {
+border: 2px solid blue;
+background-color: #f0f8ff;
+padding: 15px;
+margin: 20px;
+}
+.highlight {
+color: red;
 
-    <style>
-        /* Write your CSS here */
+font-weight: bold;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&quot;container&quot;&gt;
+&lt;h2&gt;DIV Element Example&lt;/h2&gt;
+&lt;p&gt;
+The &lt;strong&gt;DIV&lt;/strong&gt; element is a block-level container used to group HTML elements.
+&lt;/p&gt;
 
-    </style>
-
-</head>
-
-<body>
-
-     /* Write your html code to structure your web page here */
-
-</body>
-</html>
+&lt;p&gt;
+This sentence contains a
+&lt;span class=&quot;highlight&quot;&gt;SPAN element&lt;/span&gt;
+that highlights only a part of the text.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+&lt;h2&gt;Another DIV Section&lt;/h2&gt;
+&lt;p&gt;
+The &lt;span class=&quot;highlight&quot;&gt;SPAN&lt;/span&gt; element is an inline container used to style specific
+words or phrases.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
