@@ -2,40 +2,42 @@
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 &lt;meta charset=&quot;UTF-8&quot;&gt;
-&lt;title&gt;DIV and SPAN Example&lt;/title&gt;
+&lt;title&gt;Basic CSS Selectors&lt;/title&gt;
 &lt;style&gt;
-.container {
-border: 2px solid blue;
-background-color: #f0f8ff;
-padding: 15px;
-margin: 20px;
+/* Universal Selector */
+* {
+font-family: Arial, sans-serif;
 }
-.highlight {
-color: red;
 
-font-weight: bold;
+/* Element Selector */
+h1 {
+color: darkblue;
+text-align: center;
+}
+/* ID Selector */
+#heading {
+color: red;
+}
+/* Class Selector */
+.info {
+color: green;
+font-size: 18px;
+}
+/* Grouping Selector */
+h2, p {
+margin: 10px;
 }
 &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;h2&gt;DIV Element Example&lt;/h2&gt;
-&lt;p&gt;
-The &lt;strong&gt;DIV&lt;/strong&gt; element is a block-level container used to group HTML elements.
-&lt;/p&gt;
+&lt;h1 id=&quot;heading&quot;&gt;Basic CSS Selectors&lt;/h1&gt;
+&lt;h2&gt;Element Selector Example&lt;/h2&gt;
+&lt;p class=&quot;info&quot;&gt;
+This paragraph uses the &lt;strong&gt;class selector&lt;/strong&gt;.
 
-&lt;p&gt;
-This sentence contains a
-&lt;span class=&quot;highlight&quot;&gt;SPAN element&lt;/span&gt;
-that highlights only a part of the text.
 &lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;h2&gt;Another DIV Section&lt;/h2&gt;
 &lt;p&gt;
-The &lt;span class=&quot;highlight&quot;&gt;SPAN&lt;/span&gt; element is an inline container used to style specific
-words or phrases.
+This paragraph is styled using the &lt;strong&gt;grouping selector&lt;/strong&gt;.
 &lt;/p&gt;
-&lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
